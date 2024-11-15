@@ -5,8 +5,8 @@ import 'package:flutter_test/flutter_test.dart';
 
 class FakeScreen extends StatelessWidget {
   const FakeScreen({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
