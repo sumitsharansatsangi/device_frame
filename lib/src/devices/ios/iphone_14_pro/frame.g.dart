@@ -1,7 +1,5 @@
 // ignore_for_file: require_trailing_commas, non_constant_identifier_names
 
-import 'dart:ui' as ui;
-
 part of 'device.dart';
 
 // Generated manually with https://fluttershapemaker.com/
