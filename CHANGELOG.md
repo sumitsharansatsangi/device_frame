@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-## 1.1.1
-
-* Fixes iPhone 12 size and safe area issue
-* Adding Pixel 4
-=======
 ## 1.2.0
 
 * Updated dependencies to support Flutter 3.22.
->>>>>>> refs/remotes/origin/master
 
 ## 1.1.0
 
