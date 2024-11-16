@@ -9,10 +9,10 @@ class ExampleApp extends StatefulWidget {
   const ExampleApp({Key? key}) : super(key: key);
 
   @override
-  ExampleAppState createState() => ExampleAppState();
+  _ExampleAppState createState() => _ExampleAppState();
 }
 
-class ExampleAppState extends State<ExampleApp> {
+class _ExampleAppState extends State<ExampleApp> {
   bool isDark = true;
   bool isFrameVisible = true;
   bool isKeyboard = false;
@@ -139,10 +139,10 @@ class FakeScreen extends StatefulWidget {
     Key? key,
   }) : super(key: key);
   @override
-  FakeScreenState createState() => FakeScreenState();
+  _FakeScreenState createState() => _FakeScreenState();
 }
 
-class FakeScreenState extends State<FakeScreen> {
+class _FakeScreenState extends State<FakeScreen> {
   bool isDelayEnded = false;
 
   @override

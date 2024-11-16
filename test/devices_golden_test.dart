@@ -42,8 +42,8 @@ void main() {
   group('The frame renders correctly for ', () {
     for (var device in Devices.all) {
       testWidgets(device.identifier.toString(), (WidgetTester tester) async {
-        tester.binding.window.devicePixelRatioTestValue = device.pixelRatio;
-        tester.binding.window.physicalSizeTestValue = Size(
+        tester.view.devicePixelRatio = device.pixelRatio;
+        tester.view.physicalSize = Size(
           (device.frameSize.width * 2 +
                   (device.canRotate ? device.frameSize.height * 2 : 0)) *
               device.pixelRatio,
